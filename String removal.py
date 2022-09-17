@@ -1,6 +1,7 @@
 a=input("Enter the string= ")
 b=input("Enter the substring= ")
-c=a.replace(b,"")       #this is a predefined python function working for strings.First parameter is the string you want to replace and second is the replacement.
+d=input("Enter the replacement= ")
+c=a.replace(b,d)       #this is a predefined python function working for strings.First parameter is the string you want to replace and second is the replacement.
 if b in a:
     print(c)
 else:
